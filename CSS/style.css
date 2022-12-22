@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+.container{
+    color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(205deg,rgb(0, 0, 150),rgb(0, 0, 100), rgb(0, 0, 50), black);
+}
+.PrincipalFieldset{
+    width: 30vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    padding: 2vw;
+    background: linear-gradient(rgb(255, 0, 100), rgb(125, 0, 125), rgb(100, 0, 255));
+    border-radius: 20px;
+}
+
+legend{
+    font-size: 2em;
+    color: rgb(200, 200, 200);
+    font-style: oblique;
+    background-color: rgb(90, 50, 90);
+    border-radius: 20px;
+    border: 2px rgb(200, 200, 200) solid;
+}
+
+.inputBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    width: 100%;
+}
+.inputBox input{
+    border-radius: 20px;
+    padding: .5vw;
+    width: 50%;
+    color: rgb(200, 200, 200);
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+
+.inputBox input:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: 0.25s;
+}
+
+
+.inputRadio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.inputRadio input{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-right: 10px;
+}
+
+
+#Data{
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(200, 200, 200);
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+#Data:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: 0.25s;
+}
+
+
+#submit{
+    border-radius: 20px;
+    padding: 1em;
+    margin-top: .5em;
+    cursor: pointer;
+    color: rgb(200, 200, 200);
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+#submit:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: 0.25s;
+}
